@@ -5,6 +5,7 @@ def begins_with_r(array)
     word[0] == "r"
   end
 end  
+
  def contain_a(array)
   a_array = []
   array.each do |word|
