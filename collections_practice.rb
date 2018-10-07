@@ -16,6 +16,7 @@ end
   end 
   a_array
 end  
+
  def first_wa(array)
   array.find do |word|
     word[0] == "w" && word[1] == "a"
