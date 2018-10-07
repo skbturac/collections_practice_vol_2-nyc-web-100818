@@ -22,6 +22,7 @@ end
     word[0] == "w" && word[1] == "a"
   end 
 end   
+
  def remove_non_strings(array)
   string_only = []
   array.each do |word|
@@ -46,6 +47,7 @@ def count_elements(array)
   end 
   counting_arr
 end  
+
  def merge_data(keys, data)
   merged_data = []
   keys.each do |hash|
@@ -54,14 +56,16 @@ end
     bio_hash.key?(first_name)
   end
   merged_data.push(hash.merge(matching_hash[first_name]))
-  end  
+  end
   merged_data
-end  
+end 
+
  def find_cool(array)
   array.select do |person|
     person[:temperature] == "cool"
   end
-end  
+end 
+
  def organize_schools(schools)
   organized_schools = {}
   schools.each do |school, details|
